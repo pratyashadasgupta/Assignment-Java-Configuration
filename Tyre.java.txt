@@ -1,0 +1,19 @@
+package com.training.assignmentSpring2;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Tyre {
+	
+	String tyre;
+
+	public String getTyre() {
+		return tyre;
+	}
+
+	public void setTyre(String tyre2) {
+		this.tyre = tyre2;
+	}
+
+	
+}

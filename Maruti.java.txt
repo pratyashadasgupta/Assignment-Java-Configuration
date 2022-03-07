@@ -1,0 +1,27 @@
+package com.training.assignmentSpring2;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Maruti implements Car {
+	
+        @Autowired
+	    private Tyre tyre;
+        
+        @Autowired
+        private Seat seat;
+        
+        @Autowired
+        private Colour colour;
+      
+        
+		public void config() {
+			// TODO Auto-generated method stub
+        	System.out.println("CAR[Maruti[Tyre["+tyre.getTyre()+"],Seat["+seat.getSeat()+"] ,Colour["+colour.getColour() +"]]");
+			
+		}
+	    
+		
+}
+

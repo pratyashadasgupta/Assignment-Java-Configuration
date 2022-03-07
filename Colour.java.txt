@@ -1,0 +1,21 @@
+package com.training.assignmentSpring2;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Colour{
+	
+	String colour;
+
+
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+
+	public String getColour() {
+		// TODO Auto-generated method stub
+		return colour;
+	}
+
+	
+}

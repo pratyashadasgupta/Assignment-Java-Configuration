@@ -1,0 +1,19 @@
+package com.training.assignmentSpring2;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Seat {
+
+	String seat;
+
+	public String getSeat() {
+		return seat;
+	}
+
+	public void setSeat(String seat) {
+		this.seat = seat;
+	}
+
+
+}
